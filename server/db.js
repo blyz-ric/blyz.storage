@@ -16,7 +16,9 @@ module.exports = function(config) {
   // any other initial model calls
   User.createDefaults();
   Example.createDefaults();
+  Firm.createDefaults();
 };
 
 // Yote models are defined below
 let Example = require('./resources/example/ExampleModel');
+let Firm = require('./resources/firm/FirmModel');
