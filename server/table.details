@@ -9,3 +9,7 @@ firm => {
 staff => {
     createdBy, firmId, userId, status, owner
 }
+
+client => {
+    createdBy, firmId, name, status
+}

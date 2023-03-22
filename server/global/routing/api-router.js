@@ -100,3 +100,4 @@ routeFilenames.push('user/usersApi');
 routeFilenames.push('example/examplesApi');
 routeFilenames.push('firm/firmsApi');
 routeFilenames.push('staff/staffsApi');
+routeFilenames.push('client/clientsApi');
