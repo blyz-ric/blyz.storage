@@ -13,3 +13,7 @@ staff => {
 client => {
     createdBy, firmId, name, status
 }
+
+staff client => {
+    createdBy, staffId, status
+}

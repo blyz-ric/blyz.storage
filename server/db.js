@@ -19,6 +19,7 @@ module.exports = function(config) {
   Firm.createDefaults();
   Staff.createDefaults();
   Client.createDefaults();
+  StaffClient.createDefaults();
 };
 
 // Yote models are defined below
@@ -26,3 +27,4 @@ let Example = require('./resources/example/ExampleModel');
 let Firm = require('./resources/firm/FirmModel');
 let Staff = require('./resources/staff/StaffModel');
 let Client = require('./resources/client/ClientModel');
+let StaffClient = require('./resources/staffClient/StaffClientModel');
