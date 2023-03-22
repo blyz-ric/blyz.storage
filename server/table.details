@@ -5,3 +5,7 @@ general => {
 firm => {
     name, status, logo 
 }
+
+staff => {
+    createdBy, firmId, userId, status, owner
+}
